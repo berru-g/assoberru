@@ -15,3 +15,4 @@
                     <strong>invendu</strong> de la saison, à savoir toute les boisson soft et cidre, qu'il nous reste de nos évenements. Nous les vendons à -33 % de leur prix coutant, cela évite les pertes et le gaspillage.
                     <br>Dans ce même context, nous recyclons ...nanan si un meuble vous a plus lors d'un event, nous pouvons soit vous le donner si nous n'en n'avons plus l'utilité ou vous le prêter pour une occasion. <a href="" #>Dans espace trock.</a>                    <br><br>
                    
+![MonSite](https://user-images.githubusercontent.com/61543927/191817250-c6814ad8-dab7-4e76-9046-d444f7d32092.gif)
