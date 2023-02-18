@@ -9,6 +9,7 @@
         <meta name="keywords" content="Association nantaise, berru, parc de la Gaudinière, parc nantes, event parc, berru nantes">
     <link rel="shortcut icon" href="src-img\icon-octocat.png" />
     <link rel="stylesheet" href="index.css">
+      <script src="script.js"></script>
 </head>
 
 <body>
@@ -61,7 +62,6 @@
         <a href="mailto:g.leberruyer@gmail.com" id="btn" title="et offre de stage">Devenir Bénevole</a>
         <!-- <a href="ROMANCE2.0.wav" download="Romance" id="btn">Telechargement gratuit</a>-->
 
-
         <img src="src-img\mountain3.png" id="mont" position:absolute>
         <img src="src-img\foret.png" id="forest" position:absolute>
     </Section>
@@ -91,71 +91,16 @@
                         <div id="scale">
                             <p>Pour plus d'info génerale, veuillez vous réferer à notre <a href="#">FAQ</a></p>
                         </div>
-
     </div>
-
     <footer>
         <div class="scale">
             <p>Site develloppé maison <a href="http://www.github.com/berru-g"> my skill's. </a></p>
 
             <a href="#" id="secret" title="">hello you, want to play?</a>
-
         </div>
         <p id="hour" style='color:var(--text-color);'>Nous sommes </p>
-
         <p id="jour" style='color:var(--text-color); '></p>
         <p id="nom" style='color:var(--text-color); '></p>
-
     </footer>
-    <script>
-        /*script by  Robert Gil Baptista repimpé*/
-        let text = document.getElementById('text');
-        let sat = document.getElementById('sat');
-        let stars = document.getElementById('stars');
-        let btn = document.getElementById('btn');
-        let mont = document.getElementById('mont');
-        let cosmos = document.getElementById('cosmos');
-        let forest = document.getElementById('forest');
-        let header = document.getElementById('header');
-
-        window.addEventListener('scroll', function() {
-            let value = window.scrollY;
-
-            text.style.top = 15 + value * +.2 + '%';
-            stars.style.top = value * -1.5 + 'px';
-            stars.style.left = value * 5 + 'px';
-            sat.style.top = value * -1 + 'px';
-            sat.style.left = value * -1 + 'px';
-            btn.style.marginTop = value * 1.5 + 'px';
-            mont.style.top = value * +.34 + 'px';
-            cosmos.style.top = value * .25 + 'px';
-            header.style.top = value * .5 + 'px';
-        })
-
-        //		hour	function open()     //pk cette algo ne supporte que 3 var ?
-        function myFunction() {
-            var Bienvenue;
-            var time = new Date().getHours();
-            if (time < 11) {
-                Bienvenue = "c'est encore une belle journée qui commence !";
-            } else if (time < 20) { //SINON -hours inferieur 20H
-                Bienvenue = "cette journée est plutôt cool !";
-                //					document.open.boutton;//putain ça marche mais ça annule myFunction?!!!
-
-            } else {
-                Bienvenue = "la soirée s'annonce douce !"; //AUTREMENT write=""
-
-            }
-
-            document.getElementById("hour").innerHTML = Bienvenue; //Appel de mon id=""
-        }
-
-        //algo of the day
-        var d = new Date();
-        var days = ["dimanche, les autres on l'heure, toi tu as le temps!", "lundi, tendons vers nos objectifs!", "mardi c'est le jour de l'amitié !", "mercredi tous peut arriver !", "jeudi, le week-end s'approche !", "vendredi et demain matin tu est en week-end !", "samedi, on fait quoi aujourd'hui ?"];
-
-        document.getElementById("jour").innerHTML = days[d.getDay()];
-    </script>
-
-
+    
 </body>
